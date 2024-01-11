@@ -1,0 +1,19 @@
+yuki@watabenoMacBook-Air ~ % cd /Users/yuki/Desktop/samuraitera       
+yuki@watabenoMacBook-Air samuraitera % mkdir git_challenge
+yuki@watabenoMacBook-Air samuraitera % cd /Users/yuki/Desktop/samuraitera/git_challenge
+yuki@watabenoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/yuki/Desktop/samuraitera/git_challenge/.git/
+yuki@watabenoMacBook-Air git_challenge % echo  hello,world!  >> hello_world.txt
+yuki@watabenoMacBook-Air git_challenge % git add /Users/yuki/Desktop/samuraitera/git_challenge
+yuki@watabenoMacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) f0b3519] hello_world.txtを追加
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore.txt
+ create mode 100644 hello_world.txt
+yuki@watabenoMacBook-Air git_challenge % git add /Users/yuki/Desktop/samuraitera/git_challenge
+yuki@watabenoMacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main e37281a] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+yuki@watabenoMacBook-Air git_challenge % git log --oneline
+c916c36 (HEAD -> main) 日本語訳を追記
+c1cf4b7 hello_world.txtを追加
